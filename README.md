@@ -20,7 +20,7 @@ A complete web application for Butterfly RSI framework featuring:
 4. **Balanced Learning** - System learns from both success and failure
 
 ### Features
-- 💬 Beautiful chat interface with quality indicators
+- 💬 Chat interface with quality indicators
 - 📊 Live personality trait visualization with animated bars
 - 🪞 Mirror loop tracking (every 3 messages)
 - 💭 Self-evaluation display showing Echo's reflections
