@@ -2,7 +2,7 @@
 
 **Echo Interface with Positive Reinforcement Learning**
 
-A complete web application for your Butterfly RSI framework featuring:
+A complete web application for Butterfly RSI framework featuring:
 - ✅ **Fixed pathological self-criticism loop**
 - ✅ **Positive reinforcement system**  
 - ✅ **Context-aware constraint extraction**
