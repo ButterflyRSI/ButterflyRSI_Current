@@ -5,15 +5,15 @@
 Create a project folder and organize files like this:
 
 ```
-butterfly-rsi-web/                    ← Create this folder anywhere you want
-├── butterfly_web_backend.py          ← Download here
-├── requirements.txt                  ← Download here
-├── setup.sh                          ← Download here
-├── README.md                         ← Download here
-├── QUICKSTART.md                     ← Download here
-├── PATHOLOGICAL_LOOP_FIX.md          ← Download here
-├── COMPLETE_PACKAGE.md               ← Download here
-└── butterfly-web-frontend/           ← Download this entire folder
+butterfly-rsi-web/                    
+├── butterfly_web_backend.py         
+├── requirements.txt                  
+├── setup.sh                          
+├── README.md                         
+├── QUICKSTART.md                     
+├── PATHOLOGICAL_LOOP_FIX.md          
+├── COMPLETE_PACKAGE.md               
+└── butterfly-web-frontend/           
     ├── package.json
     ├── vite.config.ts
     ├── tsconfig.json
@@ -38,7 +38,7 @@ butterfly-rsi-web/                    ← Create this folder anywhere you want
 
 ## 🚀 Step-by-Step Installation
 
-### Step 1: Create Project Directory
+### Create Project Directory
 
 ```bash
 # Choose where you want the project (example: your home directory)
@@ -49,65 +49,15 @@ mkdir butterfly-rsi-web
 cd butterfly-rsi-web
 ```
 
-### Step 2: Download Files
 
-**Option A: Download from Claude directly**
 
-Click each file link in the outputs folder and save to your project directory:
-
-1. **Root directory files** - Save these directly in `butterfly-rsi-web/`:
-   - butterfly_web_backend.py
-   - requirements.txt
-   - setup.sh
-   - README.md
-   - QUICKSTART.md
-   - PATHOLOGICAL_LOOP_FIX.md
-   - COMPLETE_PACKAGE.md
-
-2. **Frontend folder** - Download the entire `butterfly-web-frontend/` folder
-   - Keep the folder structure intact!
-   - All files should be in their subfolders (src/, src/components/, etc.)
-
-**Option B: Use a script to download**
-
-I can create a download script if you prefer.
-
-### Step 3: Verify Structure
-
-```bash
-# Check you have the right structure
-ls -la
-
-# You should see:
-# butterfly_web_backend.py
-# requirements.txt
-# setup.sh
-# README.md
-# QUICKSTART.md
-# PATHOLOGICAL_LOOP_FIX.md
-# COMPLETE_PACKAGE.md
-# butterfly-web-frontend/
-
-# Check frontend
-ls -la butterfly-web-frontend/
-
-# You should see:
-# package.json
-# vite.config.ts
-# tsconfig.json
-# tailwind.config.js
-# postcss.config.js
-# index.html
-# src/
-```
-
-### Step 4: Make Setup Script Executable
+### Make Setup Script Executable
 
 ```bash
 chmod +x setup.sh
 ```
 
-### Step 5: Run Setup
+### Run Setup
 
 ```bash
 ./setup.sh
@@ -195,38 +145,6 @@ butterfly-web-frontend/
 
 ---
 
-## 💡 Quick Tips
-
-### If Files Are in Your Downloads Folder
-
-```bash
-# Move all files from Downloads to your project
-cd ~/Downloads
-
-# Move root files
-mv butterfly_web_backend.py ~/butterfly-rsi-web/
-mv requirements.txt ~/butterfly-rsi-web/
-mv setup.sh ~/butterfly-rsi-web/
-mv *.md ~/butterfly-rsi-web/
-
-# Move frontend folder
-mv butterfly-web-frontend/ ~/butterfly-rsi-web/
-
-# Go to project directory
-cd ~/butterfly-rsi-web/
-```
-
-### If You Want to Create It From Scratch
-
-```bash
-# Create full directory structure
-mkdir -p butterfly-rsi-web/butterfly-web-frontend/src/{components,hooks,types}
-
-# Then copy/paste each file content
-# Or download each file individually
-```
-
----
 
 ## ✅ Verification Checklist
 
@@ -272,21 +190,6 @@ cd ~/butterfly-rsi-web/
 
 ---
 
-## 📍 My Recommendation
 
-**Best location for the project:**
-
-```bash
-# Home directory (easiest to access)
-~/butterfly-rsi-web/
-
-# Or if you have a projects folder
-~/projects/butterfly-rsi-web/
-
-# Or on Desktop for quick access
-~/Desktop/butterfly-rsi-web/
-```
-
----
 
 **That's it! Download all the files, put them in this structure, run setup.sh, and you're ready to go! 🦋**
