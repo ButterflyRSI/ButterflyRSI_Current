@@ -2,7 +2,7 @@
 
 ## 🔬 The Discovery
 
-TodayI discovered a **critical flaw** in the Butterfly RSI self-evaluation system:
+Today I discovered a **critical flaw** in the Butterfly RSI self-evaluation system:
 
 **Echo was penalizing herself even when she performed correctly.**
 
