@@ -1,4 +1,4 @@
-# 🦋 Butterfly RSI Web Interface v2.0
+# 🦋 Butterfly RSI w/ Web Interface v2.0
 
 **Echo Interface with Positive Reinforcement Learning**
 
